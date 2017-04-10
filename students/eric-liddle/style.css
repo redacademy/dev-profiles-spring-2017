@@ -1,0 +1,96 @@
+* {
+  font-family: 'Arimo', 'Times', sans-serif;
+  border: 0px solid rgba(0,0,0,0.3)
+}
+
+h1 {
+  color: #4F524D; 
+  font-size: 30px;
+}
+
+.rotateimg90 {
+  -webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+/* Main */
+.main {
+  border: 1px solid rgba(0,0,0,0.3);
+  background: url("images/bike-beach-orig.jpg") no-repeat;
+  background-size: cover;
+  background-position: center top;
+  text-align: center;
+  height: 550px;
+  width: 90%;
+  margin: 20px auto
+}
+
+ .container {
+  text-align: middle;
+  padding: 150px;
+  max-height: 150px;
+}
+
+.main h1 {
+  color: #fff;
+  margin: 0;
+  font-size: 150px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.main p {
+  color: #fff;
+  margin: 0 0 10px 0;
+  font-size: 50px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+/* Profile Space */
+.profile {
+  border: 1px solid rgba(0,0,0,0.3);
+  background: #EEEFF1;
+  box-sizing: border-box;
+  width: 90%;
+  margin: 20px auto;
+  padding: 10px 10px;
+  text-align: left;
+}
+
+.profile p {
+  font-size: 15px;
+}
+
+.profile img {
+  padding: -15px 10px 0 0;
+  border-radius: 0%;
+  float: right;
+}
+
+.profile li {
+  display: inline-block;
+
+}
+
+/* Footer */
+.findme {
+  border: 1px solid rgba(0,0,0,0.3);
+  background: #EEEFF1;
+  overflow-y: auto;
+  position: bottom;
+  left: 0;
+  top: 0;
+  text-align: center;
+  width: 90%;
+  margin: 5px auto 5px auto;
+}
+
+.findme a {
+  color: #4F524D;
+  text-decoration: none;
+  padding: 0 20px 0 10px;
+  font-size: 20px
+  
+}

@@ -1,0 +1,74 @@
+
+
+.header {
+    font-family: 'Arimo', sans-serif;
+}
+
+
+    
+.header h2{
+    float: right;
+    font-size: 24px;
+}
+
+.header img{
+  float: top left;
+  display: block;
+}
+
+
+.main {
+  padding: 0px;
+  margin: 0px;
+  background: #efefef;
+}
+
+.main h1{
+    font-size: 30px;
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif
+}
+.main h2 {
+    text-align: left;
+    background:#efefef;
+    font-family: 'helvetica' sans-serif;
+    font-size: 20px;
+
+}
+
+.main h3{
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.main img {
+    float: left;
+    display: block;
+}
+
+#body-text {
+  margin: 0 auto;
+  position: relative;
+  float: right;
+  width: 60%;
+  font-size: 20px;
+  font-family: 'helvetica' sans-serif;
+}
+
+ .container h2 {
+    padding: 0px;
+    margin: 0px;
+    background: #fffff;
+}
+
+.Links p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+li {
+    display: inline-block
+}
