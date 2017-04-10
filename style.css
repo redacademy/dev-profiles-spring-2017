@@ -204,11 +204,17 @@ hr {
 /*-----------------------------------------*/
 
 .profile-list {
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 
 .profile-list li {
+  -webkit-flex: 0 1 100%;
+  -ms-flex: 0 1 100%;
   flex: 0 1 100%;
   max-width: 100%;
   margin-bottom: 1rem;
@@ -253,6 +259,8 @@ hr {
   }
 
   .profile-list li {
+    -webkit-flex: 0 1 50%;
+    -ms-flex: 0 1 50%;
     flex: 0 1 50%;
     max-width: 50%;
   }
@@ -264,6 +272,8 @@ hr {
   }
 
   .profile-list li {
+    -webkit-flex: 0 1 25%;
+    -ms-flex: 0 1 25%;
     flex: 0 1 25%;
     max-width: 25%;
   }
