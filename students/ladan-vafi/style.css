@@ -1,0 +1,35 @@
+* {
+  font-family: 'Georgia', 'Times', serif;
+}
+
+a {
+  color: SeaGreen;
+  text-decoration: none;
+}
+
+img {
+  border-radius: 100%;
+}
+
+h1 {
+  color: darkslategrey;
+}
+h2 {
+  height: 100px;
+  text-align: center;
+  line-height: 300%;
+}
+div{
+  border-radius: 50%;
+}
+.header img{
+  float: left;
+}
+ .profile-title{
+   text-indent: 0.9em;
+  text-align: left;
+  color:grey;
+}
+body{
+  background-color: lightgray;
+}
