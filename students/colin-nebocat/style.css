@@ -1,0 +1,77 @@
+header {
+  background-color: #CD4739;
+  background-blend-mode: overlay;
+  background-image: url(images/DSC02415.jpg);
+  background-position: center;
+  background-repeat: no-repeat; }
+  header:hover {
+    background-color: #453C45; }
+  header div div div {
+    margin: 8em auto; }
+    header div div div h1 {
+      font-family: 'Patua One', cursive, serif;
+      font-size: 4em;
+      text-align: center;
+      text-transform: uppercase;
+      text-shadow: 2px 2px 4px #453C45;
+      margin: 0;
+      color: white; }
+    header div div div h2 {
+      font-family: 'Raleway', helvetica, sans-serif;
+      font-size: 2em;
+      text-align: center;
+      margin: 0;
+      color: #453C45; }
+    header div div div h3 {
+      font-family: 'Raleway', helvetica, sans-serif;
+      font-size: 2em;
+      text-align: center;
+      margin: 0;
+      color: #453C45; }
+
+h4 {
+  font-family: 'Patua One', cursive, serif;
+  text-transform: uppercase;
+  text-align: left;
+  color: #CD4739; }
+
+p, ul {
+  font-family: 'Raleway', helvetica, sans-serif;
+  text-align: left;
+  text-justify: inter-word;
+  margin: 0;
+  color: #453C45; }
+
+a {
+  color: #305771;
+  text-decoration: none; }
+  a:hover {
+    color: #CD4739;
+    text-decoration: underline; }
+  a:visited {
+    color: #9CAB33; }
+
+.section {
+  margin: 4em 0; }
+
+.picholder {
+  width: 100%;
+  height: 20em;
+  overflow: hidden; }
+
+#profilePic {
+  height: 100%; }
+
+#map {
+  width: 100%;
+  height: 20em; }
+
+footer {
+  background-color: #453C45;
+  background-blend-mode: overlay;
+  background-image: url(images/DSC02415.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 8em; }
+
+/*# sourceMappingURL=style.css.map */

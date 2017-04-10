@@ -1,0 +1,24 @@
+html, body {
+    width: 768px;
+    margin: auto 5px;
+    padding: 0 auto;
+    display: inherit;
+    background-color: azure;
+}
+.header {
+    height: 120px;
+    width: auto;
+    padding-top: 1px;
+    margin: 0px;
+    background-color: ivory;
+}
+body img {
+    width: 350px;
+    height: auto;
+    margin: 10px 0px 10px 0px;
+}
+footer p {
+    text-transform: uppercase;
+    font-size: 9px;
+    text-align: center;
+}

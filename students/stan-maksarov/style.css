@@ -1,0 +1,149 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("images/baikal.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+.maksarov {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #333;
+    margin: 0 auto;
+    max-width: 940px;
+    padding: 10px 0;
+    height: 105px;
+    box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.5);
+}
+
+.header-title {
+    float: left;
+    text-transform: uppercase;
+}
+
+.header-title h1 {
+    font-size: 40px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    line-height: 0.5em;
+    color: #42B6EA;
+    margin-left: 25px;
+}
+
+.header-title p {
+    font-size: 16px;
+    font-family: "Noto Sans", sans-serif;
+    letter-spacing: 0.1em;
+    color: white;
+    margin-left: 25px;
+}
+
+.header-logo {
+    box-sizing: border-box;
+    display: block;
+    float: right;
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    margin-right: 25px;
+    border-radius: 100px;
+    border: 3px solid #42B6EA;
+}
+
+.header-logo img {
+    margin: 15px auto;
+    height: 65px;
+    width: auto;
+    display: block;
+}
+
+.content {
+    background-color: rgba(255, 255, 255, .8);
+    color: #333;
+    padding: 10px 25px;
+    float: right;
+    clear: right;
+    box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.5);
+}
+
+.content h2 {
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 0.7em;
+}
+
+.content p {
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.bold {
+    font-weight: 700;
+    line-height: 2em;
+}
+
+.content-image {
+    display: block;
+    float: right;
+}
+
+.content-image img {
+    height: 300px;
+    margin: 15px 0px 5px 40px;
+    width: auto;
+    display: block;
+}
+
+.content .btn {
+    display: inline;
+    float: right;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.content .btn a {
+    text-decoration: none;
+}
+
+.content .btn a:link, a:visited {
+    color: #333;
+}
+
+.content .btn a:hover {
+    color: white;
+}
+
+.content .btn #github {
+    background-color: #42B6EA;
+    margin: 0 4px 0 0;
+    float: left;
+    width: 144px;
+    padding: 5px 2px;
+    text-align: center;
+}
+
+.content .btn #facebook {
+    background-color: #42B6EA;
+    float: right;
+    width: 144px;
+    padding: 5px 2px;
+    text-align: center;
+}

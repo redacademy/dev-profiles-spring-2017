@@ -1,0 +1,80 @@
+/* Layout */
+.column{
+    width: 32.2%;
+    float: left;
+    margin: 0.5%;
+    position: relative;
+    box-sizing: border-box; 
+
+}
+
+.column#career{
+    background-color:azure;        
+}
+
+.column#personal{
+    background-color:aliceblue;
+    text-align: right;
+}
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  background-color:whitesmoke;
+}
+
+.wrapper:after{
+    /* This is a fix from http://www.dontfeartheinternet.com/08-layout/ */
+    display: block;
+    clear:both;
+    content:" ";
+    overflow: hidden;
+}
+
+
+/* Image */
+img.portrait {
+    height: auto;
+    width: 100%;
+}
+
+img.logos {
+    height: auto;
+    width: 2%;
+}
+
+
+/* Links */
+a {
+  color: darkslateblue;
+  text-decoration: none;
+}
+a:hover {
+  color: mediumslateblue;
+}
+
+
+/* Formatting */
+h1 {
+    font-size: 3.0em;
+    text-align: center;
+    color: darkblue;
+    font-family: Ubuntu;
+    line-height: 0.5em
+}
+h2 {
+    font-size: 2.0em;
+    font-family: Ubuntu;
+}
+h3 {
+    font-size: 1.0em;
+    font-family: Ubuntu;
+}
+
+p {
+    font-family: Lora;
+    line-height: 1.3em
+}
+li {
+    font-family: Lora;
+}

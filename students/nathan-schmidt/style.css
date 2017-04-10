@@ -1,0 +1,80 @@
+
+
+html{
+  height:100%;
+}
+
+body {
+  height: 100%;
+  background: #4C0000;
+  background: -webkit-linear-gradient(-45deg, #BC1324 , #4C0000);
+  background: linear-gradient(-45deg, #BC1324, #4C0000);
+  padding: 0;
+  margin: 15px;
+  
+}
+
+.everything{
+  color: #FFF;
+}
+
+.headings{
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  font-family: 'Playfair Display', sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+  text-align: center;
+  margin: auto;
+  width: 6em;
+  position: relative;
+  bottom: 180px;
+  z-index: 1;
+}
+
+h2 {
+  font-size: 28px;
+  padding-top: 30px;
+  margin-left: 11%;
+  width: 3.8em;
+}
+
+.content{
+  font-family: 'Roboto', sans-serif;
+}
+
+#about-me {
+  font-size: 25px;
+  font-weight: 100;
+  line-height: 34px;
+  text-align: center;
+  width: 55%;
+  margin: auto;
+}
+
+#hobbies{
+    font-size: 18 px;
+    margin-left: 10%;
+}
+
+a{
+  border-radius: 5%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+  padding: 3px;
+  display: block;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  top: 120px;
+}
+
+.me-img {
+  border-radius: 5%;
+  width: 25%;
+  height: 25%; 
+  display: block;
+  margin-left: 4%;
+  margin-top:  4%;
+}
