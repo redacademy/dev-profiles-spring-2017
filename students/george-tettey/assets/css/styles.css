@@ -1,0 +1,45 @@
+p {
+  font-size: 20px;
+}
+
+h1{
+  font-size: 50px;
+}
+
+h3 {
+  font-size: 40px;
+}
+
+.image-column {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 60%;
+  background-image: url("../images/obey.jpg");
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.image-column h1, .image-column h3 {
+  position: relative;
+  top: 65%;
+  background-color: rgba( 26, 16, 16, 0.6);
+}
+
+.main-column {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+}
+
+
+footer a {
+  display: inline-block;
+}
+
+footer p {
+  display: inline-block;
+}
